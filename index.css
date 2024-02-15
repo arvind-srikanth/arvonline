@@ -291,6 +291,7 @@ header table {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 6vh 6vw;
     width: 50%;
 }
 #contact {
