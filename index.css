@@ -284,6 +284,12 @@ header table {
     margin-right: auto;
     width: 50%;
   }
+
+.player {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #contact {
     width:92vw;
     padding:6vh 4vw;
