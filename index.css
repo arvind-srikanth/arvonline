@@ -185,7 +185,7 @@ header table {
 }
 #projects {
     width:92vw;
-    padding:6vh 4vw;
+    padding:6vh 6vw;
     
 }
 #projects h1 {
@@ -215,7 +215,7 @@ header table {
 
 #sonic {
     width:92vw;
-    padding:6vh 4vw;
+    padding:6vh 6vw;
     font-weight:bold;
 }
 #sonic h1 {
@@ -257,7 +257,7 @@ header table {
 
 #bio {
     width:92vw;
-    padding:6vh 4vw;
+    padding:6vh 6vw;
     display:inline-flex;
     flex-direction:column;
     justify-content:center;
@@ -295,7 +295,7 @@ header table {
 }
 #contact {
     width:92vw;
-    padding:6vh 4vw;
+    padding:6vh 6vw;
 }
 #contact h1 {
     color:rgb(0, 0, 0);
