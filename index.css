@@ -249,7 +249,7 @@ header table {
 #bio {
     width:92vw;
     padding:6vh 4vw;
-    display:flex;
+    display:inline-flex;
     flex-direction:column;
     justify-content:center;
     text-transform: lowercase;
