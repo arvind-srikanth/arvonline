@@ -437,7 +437,7 @@ button:focus {
     margin:auto;
     box-shadow:0px 10px 20px rgba(255, 138, 253, 0.8);
     background:rgba(255, 255, 255, 0.69);
-    color:#fff;
+    color:#ff93f1;
     }
     .btn_one:hover {
         box-shadow:0px 10px 40px rgba(255, 158, 252, 0.8);
