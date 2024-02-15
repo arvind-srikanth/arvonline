@@ -389,10 +389,10 @@ button:focus {
     background: #f1f1f1; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(236, 150, 245); 
+    background: rgb(255, 255, 255); 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(233, 145, 255, 0.8); 
+    background: rgb(255, 255, 255); 
 }
 
 @media (max-width: 1000px){
