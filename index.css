@@ -189,6 +189,9 @@ header table {
     
 }
 #projects h1 {
+    color:rgb(255, 157, 248);
+    text-decoration:none;
+    text-shadow: 4px 4px #00d9ff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
     width:6%;
@@ -201,6 +204,9 @@ header table {
     font-weight:bold;
 }
 #visual h1 {
+    color:rgb(255, 157, 248);
+    text-decoration:none;
+    text-shadow: 4px 4px #00d9ff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
     width:6%;
@@ -213,6 +219,9 @@ header table {
     font-weight:bold;
 }
 #sonic h1 {
+    color:rgb(255, 157, 248);
+    text-decoration:none;
+    text-shadow: 4px 4px #00d9ff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
     width:6%;
@@ -256,6 +265,9 @@ header table {
 }
 
 #bio h1 {
+    color:rgb(255, 157, 248);
+    text-decoration:none;
+    text-shadow: 4px 4px #00d9ff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
     width:8%;
@@ -277,6 +289,9 @@ header table {
     padding:6vh 4vw;
 }
 #contact h1 {
+    color:rgb(255, 157, 248);
+    text-decoration:none;
+    text-shadow: 4px 4px #00d9ff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
     width:10%;
