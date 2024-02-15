@@ -297,7 +297,7 @@ header table {
 
 .player {
     display: block;
-    margin-left: auto;
+    margin-left: 6%;
     margin-right: auto;
     padding: 6vh 6vw;
     width: 50%;
