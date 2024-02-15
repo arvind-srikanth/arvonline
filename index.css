@@ -297,9 +297,9 @@ header table {
 
 .player {
     display: block;
-    margin-left: 6%;
+    margin-left: 12%;
     margin-right: auto;
-    padding: 6vh 6vw;
+    padding: 4vh 4vw;
     width: 50%;
 }
 #contact {
