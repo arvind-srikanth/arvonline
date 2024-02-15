@@ -88,6 +88,7 @@ header table {
 }
 #logo {
     font-size:72px;
+    -webkit-text-stroke: 3px black;
     font-family: "headerFont";
     color:rgb(255, 141, 247);
     text-shadow: 6px 6px #00d9ff;
@@ -101,6 +102,7 @@ header table {
 #navigation a {
     color:rgb(255, 157, 248);
     text-decoration:none;
+    -webkit-text-stroke: 3px black;
     text-shadow: 4px 4px #00d9ff;
     padding:5px 10px;
     border-bottom:2px solid transparent;
