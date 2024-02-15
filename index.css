@@ -199,7 +199,7 @@ header table {
 }
 
 #visual {
-    width: 92vw;
+    width:92vw;
     padding:6vh 6vw;
     font-weight:bold;
 }
@@ -270,7 +270,7 @@ header table {
     text-shadow: 4px 4px #f48eff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
-    width:8%;
+    width:6%;
     font-family:"headerFont";
 }
 
@@ -303,7 +303,7 @@ header table {
     text-shadow: 4px 4px #f48eff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
-    width:10%;
+    width:6%;
     font-family:"headerFont";
 }
 #contact table {
