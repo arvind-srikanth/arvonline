@@ -147,7 +147,7 @@ header table {
     background:transparent;
     transition:0.4s ease-in-out;
     font-weight:bold;
-    align-items: center;
+    text-align: center;
     margin:30px 30px;
 }
 .social:hover { 
@@ -166,7 +166,7 @@ header table {
     width:35%;
     border-radius:80px;
     font-weight:bold;
-    margin:2vh 0px;
+    margin:auto;
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
@@ -287,10 +287,10 @@ header table {
   }
 
 .player {
-    padding: 10px 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
 #contact {
     width:92vw;
