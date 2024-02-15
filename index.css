@@ -276,6 +276,7 @@ header table {
 
 #bio table tr td {
     width:50% !important;
+    text-decoration: none;
 }
 
 .biopic {
