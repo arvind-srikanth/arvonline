@@ -124,6 +124,7 @@ header table {
     flex-direction:column;
     justify-content:center;
     text-align:center;
+    text-transform: lowercase;
     padding:0px 8%;
 }
 #about h1 {
