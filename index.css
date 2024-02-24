@@ -102,7 +102,6 @@ header table {
 #navigation a {
     color:rgb(255, 157, 248);
     text-decoration:none;
-    -webkit-text-stroke: 1px black;
     text-shadow: 4px 4px #00d9ff;
     padding:5px 10px;
     border-bottom:2px solid transparent;
