@@ -105,7 +105,7 @@ header table {
     text-shadow: 4px 4px #00d9ff;
     padding:5px 10px;
     border-bottom:2px solid transparent;
-    margin-left:2vw;
+    margin-left:1vw;
     transition:0.4s ease-in-out;
 }
 #navigation a:hover{
@@ -408,7 +408,7 @@ button:focus {
 
 @media (max-width: 1000px){
     #photos {
-    columns:2;
+    columns:3;
     column-gap:10%;
     }
     #photos img {
@@ -478,7 +478,7 @@ button:focus {
     }
     header {
         width:96vw;
-        background:#ffa3fc;
+        background:#ffffff;
         padding:4vh 2vw;
         position:absolute;
     }
