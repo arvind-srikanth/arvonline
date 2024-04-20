@@ -13,7 +13,7 @@ body {
     overflow-x:hidden;
     scroll-behavior: smooth;
     text-transform: lowercase;
-    background:#fff;
+    background:#f2f082;
 }
 #loading {
     width: 100vw;
