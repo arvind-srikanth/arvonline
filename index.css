@@ -13,6 +13,7 @@ body {
     overflow-x:hidden;
     scroll-behavior: smooth;
     text-transform: lowercase;
+    background:#fff;
 }
 #loading {
     width: 100vw;
@@ -60,7 +61,7 @@ header table {
 #magnify {
     width:100vw;
     height:100vh;
-    background:rgba(255, 128, 255, 0.69);
+    background:rgba(255, 121, 255, 0.69);
     position:fixed;
     z-index:4;
     display:none;
