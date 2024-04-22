@@ -141,6 +141,7 @@ header table {
     text-decoration:none;
     color:rgb(255, 141, 247);
     text-align:right;
+    padding:2px 4px;
     font-size: 32px;
     text-shadow: 2px 2px rgb(0, 217, 255);
     transition:0.4s ease-in-out;
@@ -208,6 +209,7 @@ header table {
     color:rgb(255, 141, 247);
     text-align:right;
     font-size: 32px;
+    padding:2px 4px;
     text-shadow: 2px 2px rgb(0, 217, 255);
     transition:0.4s ease-in-out;
 }
@@ -224,6 +226,7 @@ header table {
     color:rgb(255, 141, 247);
     text-align:right;
     font-size: 32px;
+    padding:2px 4px;
     text-shadow: 2px 2px rgb(0, 217, 255);
     transition:0.4s ease-in-out;
 }
@@ -244,6 +247,7 @@ header table {
     color:rgb(255, 141, 247);
     text-align:right;
     font-size: 32px;
+    padding:2px 4px;
     text-shadow: 2px 2px rgb(0, 217, 255);
     transition:0.4s ease-in-out;
 }
@@ -295,6 +299,7 @@ header table {
     color:rgb(255, 141, 247);
     text-align:right;
     font-size: 32px;
+    padding:2px 4px;
     text-shadow: 2px 2px rgb(0, 217, 255);
     transition:0.4s ease-in-out;
 }
@@ -330,6 +335,7 @@ header table {
     color:rgb(255, 141, 247);
     text-align:right;
     font-size: 32px;
+    padding:2px 4px;
     text-shadow: 2px 2px rgb(0, 217, 255);
     transition:0.4s ease-in-out;
 }
