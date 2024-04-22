@@ -46,7 +46,7 @@ header {
     background:transparent;
     color:#ffffff;
     text-shadow: 2px 2px #00d0ff;
-    transition: 0.6s ease-in-out;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) ease-in-out;
     z-index:2;
 }
 header table {
