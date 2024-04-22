@@ -136,14 +136,9 @@ header table {
     padding:0px 8%;
 }
 #about h1 {
-    font-family: "headerFont";
-    -webkit-text-stroke: 1px black;
-    text-decoration:none;
-    color:rgb(255, 141, 247);
-    text-align:right;
     font-size: 32px;
-    text-shadow: 2px 2px rgb(0, 217, 255);
-    transition:0.4s ease-in-out;
+    -webkit-text-stroke: 1px black;
+    word-wrap:break-word;
 }
 #about table {
     width:70%;
@@ -202,14 +197,15 @@ header table {
     
 }
 #projects h1 {
-    font-family: "headerFont";
-    -webkit-text-stroke: 1px black;
-    text-decoration:none;
     color:rgb(255, 141, 247);
-    text-align:right;
     font-size: 32px;
+    text-decoration:none;
     text-shadow: 2px 2px rgb(0, 217, 255);
-    transition:0.4s ease-in-out;
+    -webkit-text-stroke: 1px black;
+    padding:5px 0px;
+    border-bottom:4px solid rgba(255, 128, 255, 0.69);
+    width:6%;
+    font-family:"headerFont";
 }
 
 #visual {
@@ -218,14 +214,15 @@ header table {
     font-weight:bold;
 }
 #visual h1 {
-    font-family: "headerFont";
-    -webkit-text-stroke: 1px black;
-    text-decoration:none;
     color:rgb(255, 141, 247);
-    text-align:right;
+    text-decoration:none;
     font-size: 32px;
     text-shadow: 2px 2px rgb(0, 217, 255);
-    transition:0.4s ease-in-out;
+    -webkit-text-stroke: 1px black;
+    padding:5px 0px;
+    border-bottom:4px solid rgba(255, 128, 255, 0.69);
+    width:6%;
+    font-family:"headerFont";
 }
 
 #sonic {
@@ -238,14 +235,15 @@ header table {
     text-transform: lowercase;
 }
 #sonic h1 {
-    font-family: "headerFont";
-    -webkit-text-stroke: 1px black;
-    text-decoration:none;
     color:rgb(255, 141, 247);
-    text-align:right;
+    text-decoration:none;
     font-size: 32px;
     text-shadow: 2px 2px rgb(0, 217, 255);
-    transition:0.4s ease-in-out;
+    -webkit-text-stroke: 1px black;
+    padding:5px 0px;
+    border-bottom:4px solid rgba(255, 128, 255, 0.69);
+    width:6%;
+    font-family:"headerFont";
 }
 #sonic table tr td {
     width:50% !important;
@@ -289,14 +287,15 @@ header table {
 }
 
 #bio h1 {
-    font-family: "headerFont";
-    -webkit-text-stroke: 1px black;
-    text-decoration:none;
     color:rgb(255, 141, 247);
-    text-align:right;
+    text-decoration:none;
     font-size: 32px;
     text-shadow: 2px 2px rgb(0, 217, 255);
-    transition:0.4s ease-in-out;
+    -webkit-text-stroke: 1px black;
+    padding:5px 0px;
+    border-bottom:4px solid rgba(255, 128, 255, 0.69);
+    width:6%;
+    font-family:"headerFont";
 }
 
 #bio table tr td {
@@ -324,14 +323,15 @@ header table {
     padding:6vh 6vw;
 }
 #contact h1 {
-    font-family: "headerFont";
-    -webkit-text-stroke: 1px black;
-    text-decoration:none;
     color:rgb(255, 141, 247);
-    text-align:right;
+    text-decoration:none;
     font-size: 32px;
     text-shadow: 2px 2px rgb(0, 217, 255);
-    transition:0.4s ease-in-out;
+    -webkit-text-stroke: 1px black;
+    padding:5px 0px;
+    border-bottom:4px solid rgba(255, 128, 255, 0.69);
+    width:6%;
+    font-family:"headerFont";
 }
 #contact table {
     width:100%;
