@@ -136,6 +136,14 @@ header table {
     padding:0px 8%;
 }
 #about h1 {
+<<<<<<< HEAD
+=======
+    font-family: "headerFont";
+    -webkit-text-stroke: 1px black;
+    text-decoration:none;
+    color:rgb(255, 141, 247);
+    text-align:right;
+>>>>>>> parent of 1574e31 (Update index.css)
     font-size: 32px;
     -webkit-text-stroke: 1px black;
     word-wrap:break-word;
@@ -199,7 +207,10 @@ header table {
 #projects h1 {
     color:rgb(255, 141, 247);
     font-size: 32px;
+<<<<<<< HEAD
     text-decoration:none;
+=======
+>>>>>>> parent of 1574e31 (Update index.css)
     text-shadow: 2px 2px rgb(0, 217, 255);
     -webkit-text-stroke: 1px black;
     padding:5px 0px;
