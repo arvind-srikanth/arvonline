@@ -1,28 +1,24 @@
-const imgcontainer = document.querySelector(".image-container");
-const prev = document.getElementById("prev");
-const next = document.getElementById("next");
+document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".gallery-image");
 
-let a = 0;
-let timeout;
+    images.forEach(function(image) {
+        image.addEventListener("click", function() {
+            const lightbox = document.createElement("div");
+            lightbox.classList.add("lightbox");
 
-prev.addEventListener("click", () => {
-  a = a + 45;
-  clearTimeout(timeout);
-  updategellary();
+            const imageClone = image.cloneNode(true);
+            lightbox.appendChild(imageClone);
+
+            const caption = document.createElement("div");
+            caption.classList.add("lightbox-caption");
+            caption.textContent = image.dataset.caption;
+            lightbox.appendChild(caption);
+
+            document.body.appendChild(lightbox);
+
+            lightbox.addEventListener("click", function() {
+                document.body.removeChild(lightbox);
+            });
+        });
+    });
 });
-
-next.addEventListener("click", () => {
-  a = a - 45;
-    clearTimeout(timeout);
-  updategellary();
-});
-
-function updategellary() {
-  imgcontainer.style.transform = `perspective(1000px) rotateY(${a}deg)`;
-  timeout=setTimeout(() => {
-    a = a - 45;
-
-    updategellary();
-  }, 4000);
-}
-updategellary();
