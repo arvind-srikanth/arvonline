@@ -125,7 +125,6 @@ header table {
 #top_part tr td{
     width:50%;
 }
-
 #about {
     width:84% !important;
     height:95vh;
@@ -424,26 +423,89 @@ button:focus {
     background: rgb(255, 255, 255); 
 }
 
-
-* {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-}
-
-#container {
-    max-width: 100%;
-}
-
-.image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.image-gallery img {
-    max-width: 400px;
-    min-height: 350px;
-
+@media (max-width: 1000px){
+    #photos {
+    columns:3;
+    column-gap:10%;
+    }
+    #photos img {
+        margin:10% 0px;
+    }
+    #photos img:hover {
+        transform: scale(1);
+        cursor: pointer;
+    }
+    #rightImage {
+        display:none;
+    }
+    #top_part {
+        border:0px;
+    }
+    #top_part tr td{
+        width:100%;
+        text-align:center;
+    }
+    #about {
+        width:92% !important;
+        height:75vh;
+        padding-top:20vh !important;
+        text-align:center;
+        padding:0px 4%;
+    }
+    #about table {
+        width:100%;
+        margin-top:6vh;
+    }
+    #about table tr td {
+        text-align:center;
+    }
+    .btn_one {
+    padding:6px 30px;
+    width:60%;
+    margin:auto;
+    box-shadow:0px 10px 20px rgba(255, 138, 253, 0.8);
+    background:rgba(255, 255, 255, 0.69);
+    color:#ff93f1;
+    }
+    .btn_one:hover {
+        box-shadow:0px 10px 40px rgba(255, 158, 252, 0.8);
+        cursor:pointer;
+    }
+    #contact table tr td {
+        width:100%;
+        display:block;
+    }
+    #inner_table tr td{
+        padding:10px 0px !important;
+    }
+    #contact form input {
+        width:90%;
+    }
+    #contact form textarea {
+        width:90%;
+    }
+    #work h1 {
+        width:19%;
+    }
+    #bio h1 {
+        width:25%;
+    }
+    #contact h1 {
+        width:33%;
+    }
+    header {
+        width:100%;
+        background:#ffffff;
+        padding:4vh 2vw;
+        position:absolute;
+    }
+    #header table tr td {
+        width:100%;
+        display:block;
+        text-align:center;
+        padding:15px 0px;
+    }
+    #navigation a {
+        color:#f67dff;
+    }
 }
