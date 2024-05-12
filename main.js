@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
             lightbox.classList.add("lightbox");
 
             const imageClone = image.cloneNode(true);
+            imageClone.classList.remove("gallery-image"); // Remove class to avoid hover effect
             lightbox.appendChild(imageClone);
 
             const caption = document.createElement("div");
