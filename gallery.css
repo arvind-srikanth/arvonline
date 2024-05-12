@@ -17,10 +17,10 @@
 }
 
 .caption {
-    position: relative;
+    position:absolute;
     bottom: 0;
     left: 0;
-    width: 90%;
+    width: auto;
     background-color: rgba(255, 221, 0, 0.872);
     color: #fff;
     text-align: center;
