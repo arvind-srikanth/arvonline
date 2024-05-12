@@ -11,7 +11,7 @@
 
 .gallery-image {
     display: block;
-    width: min-content;
+    width: 50%;
     height: fit-content;
     cursor: pointer;
 }
