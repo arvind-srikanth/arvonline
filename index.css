@@ -212,6 +212,12 @@ header table {
     width:92vw;
     padding:6vh 6vw;
     font-weight:bold;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    text-transform: lowercase;
+    padding:0px 8%;
 }
 #visual h1 {
     color:rgb(255, 141, 247);
