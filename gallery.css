@@ -12,7 +12,7 @@
 
 .gallery-image {
     display: block;
-    width: 100%;
+    width: fit-content;
     height: auto;
     cursor: pointer;
 }
