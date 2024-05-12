@@ -7,12 +7,11 @@
 .image-container {
     position: relative;
     width: calc(33.33% - 10px);
-    margin-bottom: 20px;
 }
 
 .gallery-image {
     display: block;
-    width: 50%;
+    width: fit-content;
     height: 50%;
     cursor: pointer;
 }
@@ -34,7 +33,7 @@
 }
 
 .lightbox {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
