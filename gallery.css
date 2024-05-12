@@ -12,12 +12,12 @@
 .gallery-image {
     display: block;
     width: fit-content;
-    height: 50%;
+    height: fit-content;
     cursor: pointer;
 }
 
 .caption {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 90%;
