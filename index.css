@@ -125,6 +125,306 @@ header table {
 #top_part tr td{
     width:50%;
 }
+
+#about {
+    width:84% !important;
+    height:95vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    text-transform: lowercase;
+    padding:0px 8%;
+}
+#about h1 {
+    font-size: 32px;
+    -webkit-text-stroke: 1px black;
+    word-wrap:break-word;
+}
+#about table {
+    width:70%;
+    
+}
+#about table tr td {
+    width:20% !important;
+    text-align:center;
+}
+.social {
+    color:rgb(248, 168, 255);
+    font-size:48px;
+    padding:0px 10px;
+    border-radius: 50%;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    font-weight:bold;
+    text-align: center;
+    margin:30px 30px;
+}
+.social:hover { 
+    cursor: pointer;
+    color:#ffffff;
+    background:#00d9ff;
+    box-shadow:0px 6px 6px #ffa1f3;
+}
+.btn_one {
+    font-size:18px;
+    font-family: 'Poppins', sans-serif;
+    color:rgba(255, 128, 255, 0.69);
+    background:#fff;
+    border:3px solid rgba(255, 128, 255, 0.69);
+    padding:8px 40px;
+    width:35%;
+    border-radius:80px;
+    font-weight:bold;
+    margin:auto;
+    transition:0.4s ease-in-out;
+}
+.btn_one:hover {
+    box-shadow:0px 10px 30px rgba(255, 128, 255, 0.69);
+    cursor:pointer;
+    color:#fff;
+    background:rgba(255, 128, 255, 0.69);
+}
+#rightImage {
+    width:100%;
+    height:95vh;
+    background: linear-gradient(rgb(255,255,255),rgba(255,255,255,0.66), rgba(255,255,255, .33), rgba(255,255,255, 0.66), rgba(255,255,255, 0.7), rgba(255,255,255, 0.8), rgba(255,255,255, 0.9), rgba(255,255,255, 1.0)), url("images/arvonlineprofile.png") center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#projects {
+    width:92vw;
+    padding:6vh 6vw;
+    
+}
+#projects h1 {
+    color:rgb(255, 141, 247);
+    font-size: 32px;
+    text-decoration:none;
+    text-shadow: 2px 2px rgb(0, 217, 255);
+    -webkit-text-stroke: 1px black;
+    padding:5px 0px;
+    border-bottom:4px solid rgba(255, 128, 255, 0.69);
+    width:6%;
+    font-family:"headerFont";
+}
+
+#visual {
+    width:92vw;
+    padding:6vh 6vw;
+    font-weight:bold;
+}
+#visual h1 {
+    color:rgb(255, 141, 247);
+    text-decoration:none;
+    font-size: 32px;
+    text-shadow: 2px 2px rgb(0, 217, 255);
+    -webkit-text-stroke: 1px black;
+    padding:5px 0px;
+    border-bottom:4px solid rgba(255, 128, 255, 0.69);
+    width:6%;
+    font-family:"headerFont";
+}
+
+#sonic {
+    width:92vw;
+    padding:6vh 6vw;
+    font-weight:bold;
+    display:inline-flex;
+    flex-direction:column;
+    justify-content:center;
+    text-transform: lowercase;
+}
+#sonic h1 {
+    color:rgb(255, 141, 247);
+    text-decoration:none;
+    font-size: 32px;
+    text-shadow: 2px 2px rgb(0, 217, 255);
+    -webkit-text-stroke: 1px black;
+    padding:5px 0px;
+    border-bottom:4px solid rgba(255, 128, 255, 0.69);
+    width:6%;
+    font-family:"headerFont";
+}
+#sonic table tr td {
+    width:50% !important;
+    text-decoration: none;
+}
+
+
+
+#photos {
+    width:100%;
+    columns:3;
+    padding:2vh 0;
+    align-content: center;
+    z-index:1;
+    transition:0.4s ease-in-out;
+}
+#photos img {
+    width:100%;
+    height:auto;
+    max-height:300px;
+    max-width:300px;
+    object-fit: contain;
+    padding:10px;
+
+
+    transition:0.4s ease-in-out;
+}
+#photos img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+#bio {
+    width:92vw;
+    padding:6vh 6vw;
+    display:inline-flex;
+    flex-direction:column;
+    justify-content:center;
+    text-transform: lowercase;
+}
+
+#bio h1 {
+    color:rgb(255, 141, 247);
+    text-decoration:none;
+    font-size: 32px;
+    text-shadow: 2px 2px rgb(0, 217, 255);
+    -webkit-text-stroke: 1px black;
+    padding:5px 0px;
+    border-bottom:4px solid rgba(255, 128, 255, 0.69);
+    width:6%;
+    font-family:"headerFont";
+}
+
+#bio table tr td {
+    width:50% !important;
+    text-decoration: none;
+}
+
+.biopic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+  }
+
+.player {
+    display: block;
+    margin-left: 12%;
+    margin-right: auto;
+    padding: 4vh 4vw;
+    width: 50%;
+}
+#contact {
+    width:92vw;
+    padding:6vh 6vw;
+}
+#contact h1 {
+    color:rgb(255, 141, 247);
+    text-decoration:none;
+    font-size: 32px;
+    text-shadow: 2px 2px rgb(0, 217, 255);
+    -webkit-text-stroke: 1px black;
+    padding:5px 0px;
+    border-bottom:4px solid rgba(255, 128, 255, 0.69);
+    width:6%;
+    font-family:"headerFont";
+}
+#contact table {
+    width:100%;
+}
+#contact table tr td {
+    width:50%;
+}
+#inner_div table{
+    width:100%;
+}
+#inner_div table tr td{
+    font-weight:bold;
+}
+#inner_table tr td{
+    padding:10px 20px !important;
+}
+#contact form {
+    width:100%;
+}
+#contact form input {
+    width:96%;
+    margin:20px 1%;
+    background:transparent;
+    border:0px;
+    border-bottom:3px solid rgba(255, 128, 255, 0.69);
+    padding:8px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    transition:0.4s ease-in-out;
+    color:#000;
+    font-weight:bold;
+}
+#contact form textarea {
+    width:96%;
+    margin:20px 1%;
+    padding:8px 10px;
+    border:0px;
+    border-bottom:3px solid rgba(255, 128, 255, 0.69);
+    padding:8px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    background:transparent;
+    resize:none;
+    transition:0.4s ease-in-out;
+    color:#000;
+    font-weight:bold;
+}
+#contact form input:focus {
+    outline:none;
+    border-bottom:3px solid rgba(255, 128, 255, 0.69);
+}
+#contact form textarea:focus {
+    outline:none;
+    border-bottom:3px solid rgba(255, 128, 255, 0.69);
+}
+#address {
+    position:relative;
+    top:-25px;
+    left:30px;
+}
+#footer {
+    width:100%;
+    padding:10vh 0px;
+    text-align:center;
+    font-weight:bold;
+}
+#footer a {
+    color:rgba(255, 128, 255, 0.69);
+    text-decoration:none;
+}
+::placeholder {
+    color:#000;
+}
+button:focus {
+    align-items: center;
+    outline:none;
+}
+::-webkit-scrollbar {
+    width:5px;
+    height:5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255); 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255); 
+}
+
+
 * {
     box-sizing: border-box;
     padding: 0px;
