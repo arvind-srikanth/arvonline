@@ -212,8 +212,7 @@ header table {
     width:92vw;
     padding:6vh 6vw;
     font-weight:bold;
-    display:flex;
-    flex-direction:column;
+    display:block;
     justify-content:center;
     text-align:center;
     text-transform: lowercase;
