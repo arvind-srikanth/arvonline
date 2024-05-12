@@ -423,7 +423,7 @@ button:focus {
     background: rgb(255, 255, 255); 
 }
 
-@media (max-width: 960px){
+@media (max-width: 1000px){
     #photos {
     columns:3;
     column-gap:10%;
@@ -507,53 +507,5 @@ button:focus {
     }
     #navigation a {
         color:#f67dff;
-    }
-}
-
-@media (max-width: 768px) {
-    header {
-        padding: 3vh 2vw; /* Adjust padding for smaller screens */
-    }
-
-    #logo {
-        font-size: 20px; /* Adjust font size for smaller screens */
-    }
-
-    #navigation {
-        font-size: 16px; /* Adjust font size for smaller screens */
-    }
-
-    #about h1 {
-        font-size: 20px; /* Adjust font size for smaller screens */
-    }
-
-    .social {
-        font-size: 20px; /* Adjust font size for smaller screens */
-    }
-
-    .btn_one {
-        font-size: 14px; /* Adjust font size for smaller screens */
-        padding: 6px 16px; /* Adjust padding for smaller screens */
-    }
-
-    #projects,
-    #visual,
-    #sonic,
-    #photos,
-    #bio,
-    #contact {
-        padding: 4vh 4vw; /* Adjust padding for smaller screens */
-    }
-
-    #projects h1,
-    #visual h1,
-    #sonic h1,
-    #bio h1,
-    #contact h1 {
-        font-size: 20px; /* Adjust font size for smaller screens */
-    }
-
-    #footer {
-        padding: 3vh 0; /* Adjust padding for smaller screens */
     }
 }
