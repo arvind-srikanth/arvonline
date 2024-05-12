@@ -13,7 +13,7 @@
 .gallery-image {
     display: block;
     width: fit-content;
-    height: auto;
+    height: fit-content;
     cursor: pointer;
 }
 
@@ -22,9 +22,8 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 221, 0, 0.872);
     color: #fff;
-    padding: 10px;
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -40,7 +39,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 251, 0, 0.798);
     display: none;
     justify-content: center;
     align-items: center;
