@@ -217,7 +217,7 @@ header table {
     justify-content:center;
     text-align:center;
     text-transform: lowercase;
-    padding:0px 8%;
+    padding 20px 8%;
 }
 #visual h1 {
     color:rgb(255, 141, 247);
