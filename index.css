@@ -13,7 +13,6 @@ body {
     overflow-x:hidden;
     scroll-behavior: smooth;
     text-transform: lowercase;
-    background:rgb(255, 255, 255);
 }
 #loading {
     width: 100vw;
@@ -53,7 +52,7 @@ header table {
     width:100%;
 }
 #logo {
-    width: 40%;
+    width:40%;
 }
 #navigation {
     width:60%;
@@ -61,7 +60,7 @@ header table {
 #magnify {
     width:100vw;
     height:100vh;
-    background:rgba(255, 121, 255, 0.69);
+    background:rgba(255, 128, 255, 0.69);
     position:fixed;
     z-index:4;
     display:none;
@@ -89,34 +88,27 @@ header table {
 }
 #logo {
     font-size:72px;
-    -webkit-text-stroke: 3px black;
     font-family: "headerFont";
     color:rgb(255, 141, 247);
-    text-shadow: 6px 6px rgb(0, 217, 255);
+    text-shadow: 6px 6px #00d9ff;
 }
 #navigation {
     font-family: "headerFont";
-    -webkit-text-stroke: 1px black;
-    text-decoration:none;
-    color:rgb(255, 141, 247);
     text-align:right;
-    font-size: 32px;
-    text-shadow: 2px 2px rgb(0, 217, 255);
-    transition:0.4s ease-in-out;
+    font-size: 24px;
+    text-shadow: 2px 2px #00d9ff;
 }
 #navigation a {
-    font-family: "headerFont";
     color:rgb(255, 157, 248);
     text-decoration:none;
-    text-shadow: 2px 2px rgb(0, 217, 255);
-    -webkit-text-stroke: 1px black;
-    padding:2px 4px;
+    text-shadow: 4px 4px #00d9ff;
+    padding:5px 10px;
     border-bottom:2px solid transparent;
-
-
+    margin-left:2vw;
+    transition:0.4s ease-in-out;
 }
 #navigation a:hover{
-    border-bottom:2px solid rgb(255, 141, 247);
+    border-bottom:2px solid #ff98f0;
 }
 #top_part {
     width:100%;
@@ -136,8 +128,7 @@ header table {
     padding:0px 8%;
 }
 #about h1 {
-    font-size: 32px;
-    -webkit-text-stroke: 1px black;
+    font-size:45px;
     word-wrap:break-word;
 }
 #about table {
@@ -156,7 +147,7 @@ header table {
     background:transparent;
     transition:0.4s ease-in-out;
     font-weight:bold;
-    text-align: center;
+    align-items: center;
     margin:30px 30px;
 }
 .social:hover { 
@@ -175,7 +166,7 @@ header table {
     width:35%;
     border-radius:80px;
     font-weight:bold;
-    margin:auto;
+    margin:2vh 0px;
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
@@ -187,21 +178,20 @@ header table {
 #rightImage {
     width:100%;
     height:95vh;
-    background: linear-gradient(rgb(255,255,255),rgba(255,255,255,0.66), rgba(255,255,255, .33), rgba(255,255,255, 0.66), rgba(255,255,255, 0.7), rgba(255,255,255, 0.8), rgba(255,255,255, 0.9), rgba(255,255,255, 1.0)), url("images/arvonlineprofile.png") center center;
+    /*background:linear-gradient(0deg,rgba(255, 125, 220, 0.8),rgba(132, 198, 255, 0.8)),url("/images/arvonlineprofile.jpg");*/
+    background: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255,0.66), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1.0)), url("images/arvonlineprofile.png") center center;
     background-size:cover;
     background-repeat:no-repeat;
 }
 #projects {
     width:92vw;
-    padding:6vh 6vw;
+    padding:6vh 4vw;
     
 }
 #projects h1 {
-    color:rgb(255, 141, 247);
-    font-size: 32px;
+    color:rgb(0, 0, 0);
     text-decoration:none;
-    text-shadow: 2px 2px rgb(0, 217, 255);
-    -webkit-text-stroke: 1px black;
+    text-shadow: 4px 4px #f48eff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
     width:6%;
@@ -209,21 +199,14 @@ header table {
 }
 
 #visual {
-    width:92vw;
+    width: 100%;
     padding:6vh 6vw;
     font-weight:bold;
-    display:block;
-    justify-content:center;
-    text-align:center;
-    text-transform: lowercase;
-    padding 20px 8%;
 }
 #visual h1 {
-    color:rgb(255, 141, 247);
+    color:rgb(0, 0, 0);
     text-decoration:none;
-    font-size: 32px;
-    text-shadow: 2px 2px rgb(0, 217, 255);
-    -webkit-text-stroke: 1px black;
+    text-shadow: 4px 4px #f48eff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
     width:6%;
@@ -232,34 +215,49 @@ header table {
 
 #sonic {
     width:92vw;
-    padding:6vh 6vw;
+    padding:6vh 4vw;
     font-weight:bold;
-    display:inline-flex;
-    flex-direction:column;
-    justify-content:center;
-    text-transform: lowercase;
 }
 #sonic h1 {
-    color:rgb(255, 141, 247);
+    color:rgb(0, 0, 0);
     text-decoration:none;
-    font-size: 32px;
-    text-shadow: 2px 2px rgb(0, 217, 255);
-    -webkit-text-stroke: 1px black;
+    text-shadow: 4px 4px #f48eff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
     width:6%;
     font-family:"headerFont";
 }
-#sonic table tr td {
-    width:50% !important;
-    text-decoration: none;
-}
 
+
+
+#photos {
+    width:100%;
+    columns:3;
+    padding:2vh 0;
+    align-content: center;
+    z-index:1;
+    transition:0.4s ease-in-out;
+}
+#photos img {
+    width:100%;
+    height:auto;
+    max-height:300px;
+    max-width:300px;
+    object-fit: contain;
+    padding:10px;
+
+
+    transition:0.4s ease-in-out;
+}
+#photos img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
 
 #bio {
     width:92vw;
-    padding:6vh 6vw;
+    padding:6vh 4vw;
     display:inline-flex;
     flex-direction:column;
     justify-content:center;
@@ -267,20 +265,17 @@ header table {
 }
 
 #bio h1 {
-    color:rgb(255, 141, 247);
+    color:rgb(0, 0, 0);
     text-decoration:none;
-    font-size: 32px;
-    text-shadow: 2px 2px rgb(0, 217, 255);
-    -webkit-text-stroke: 1px black;
+    text-shadow: 4px 4px #f48eff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
-    width:6%;
+    width:8%;
     font-family:"headerFont";
 }
 
 #bio table tr td {
     width:50% !important;
-    text-decoration: none;
 }
 
 .biopic {
@@ -288,29 +283,25 @@ header table {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border-radius: 50%;
   }
 
 .player {
+    padding: 10px 0px;
     display: block;
-    margin-left: 12%;
+    margin-left: auto;
     margin-right: auto;
-    padding: 4vh 4vw;
-    width: 50%;
 }
 #contact {
     width:92vw;
-    padding:6vh 6vw;
+    padding:6vh 4vw;
 }
 #contact h1 {
-    color:rgb(255, 141, 247);
+    color:rgb(0, 0, 0);
     text-decoration:none;
-    font-size: 32px;
-    text-shadow: 2px 2px rgb(0, 217, 255);
-    -webkit-text-stroke: 1px black;
+    text-shadow: 4px 4px #f48eff;
     padding:5px 0px;
     border-bottom:4px solid rgba(255, 128, 255, 0.69);
-    width:6%;
+    width:10%;
     font-family:"headerFont";
 }
 #contact table {
@@ -397,8 +388,96 @@ button:focus {
     background: #f1f1f1; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 255, 255); 
+    background: rgb(236, 150, 245); 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(255, 255, 255); 
+    background: rgba(233, 145, 255, 0.8); 
+}
+
+@media (max-width: 1000px){
+    #photos {
+    columns:2;
+    column-gap:10%;
+    }
+    #photos img {
+        margin:10% 0px;
+    }
+    #photos img:hover {
+        transform: scale(1);
+        cursor: pointer;
+    }
+    #rightImage {
+        display:none;
+    }
+    #top_part {
+        border:0px;
+    }
+    #top_part tr td{
+        width:100%;
+        text-align:center;
+    }
+    #about {
+        width:92% !important;
+        height:75vh;
+        padding-top:20vh !important;
+        text-align:center;
+        padding:0px 4%;
+    }
+    #about table {
+        width:100%;
+        margin-top:6vh;
+    }
+    #about table tr td {
+        text-align:center;
+    }
+    .btn_one {
+    padding:6px 30px;
+    width:60%;
+    margin:4vh auto;
+    box-shadow:0px 10px 20px rgba(255, 138, 253, 0.8);
+    background:rgba(255, 255, 255, 0.69);
+    color:#fff;
+    align-items: center;
+    }
+    .btn_one:hover {
+        box-shadow:0px 10px 40px rgba(255, 158, 252, 0.8);
+        cursor:pointer;
+    }
+    #contact table tr td {
+        width:100%;
+        display:block;
+    }
+    #inner_table tr td{
+        padding:10px 0px !important;
+    }
+    #contact form input {
+        width:90%;
+    }
+    #contact form textarea {
+        width:90%;
+    }
+    #work h1 {
+        width:19%;
+    }
+    #bio h1 {
+        width:25%;
+    }
+    #contact h1 {
+        width:33%;
+    }
+    header {
+        width:96vw;
+        background:#ffa3fc;
+        padding:4vh 2vw;
+        position:absolute;
+    }
+    #header table tr td {
+        width:100%;
+        display:block;
+        text-align:center;
+        padding:15px 0px;
+    }
+    #navigation a {
+        color:#f67dff;
+    }
 }
