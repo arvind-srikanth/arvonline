@@ -217,6 +217,8 @@ header table {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
+    display:flex;
+    flex-direction:column;
 }
 #sonic h1 {
     color:rgb(0, 0, 0);
