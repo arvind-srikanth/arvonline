@@ -5,13 +5,13 @@
 }
 
 .image-container {
-    position: relative;
+    position: absolute;
     width: calc(33.33% - 10px);
 }
 
 .gallery-image {
     display:flex;
-    width:auto;
+    width:fit-content;
     height: fit-content;
     cursor: pointer;
 }
