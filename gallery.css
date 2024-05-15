@@ -10,8 +10,8 @@
 }
 
 .gallery-image {
-    display:flex;
-    width:fit-content;
+    display:block;
+    width: fit-content;
     height: fit-content;
     cursor: pointer;
 }
