@@ -220,6 +220,12 @@ header table {
     display:flex;
     flex-direction:column;
 }
+#sonic table {
+    width:100%;
+}
+#sonic table tr td {
+    width:50%;
+}
 #sonic h1 {
     color:rgb(0, 0, 0);
     text-decoration:none;
