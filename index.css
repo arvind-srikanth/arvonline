@@ -111,7 +111,7 @@ header table {
     border-bottom:2px solid #ff98f0;
 }
 #top_part {
-    width:100%;
+    width:92vw;
     
 }
 #top_part tr td{
@@ -364,7 +364,7 @@ header table {
     left:30px;
 }
 #footer {
-    width:100%;
+    width:92vw;
     padding:10vh 0px;
     text-align:center;
     font-weight:bold;
